@@ -1,0 +1,80 @@
+.edit-button {
+  margin-top: 19px;
+  margin-right: 19px;
+  height: 40px;
+  border: wheat;
+  transition: 100ms;
+}
+
+.edit-button:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  /* background-image: linear-gradient(
+    185deg,
+    hsl(175deg 53% 58%) 0%,
+    hsl(178deg 50% 59%) 8%,
+    hsl(181deg 48% 61%) 15%,
+    hsl(185deg 49% 63%) 21%,
+    hsl(187deg 51% 64%) 25%,
+    hsl(185deg 56% 63%) 29%,
+    hsl(184deg 61% 62%) 34%,
+    hsl(183deg 66% 61%) 40%,
+    hsl(185deg 72% 60%) 47%,
+    hsl(189deg 79% 59%) 54%,
+    hsl(192deg 86% 57%) 61%,
+    hsl(194deg 93% 54%) 68%,
+    hsl(195deg 91% 54%) 76%,
+    hsl(196deg 86% 56%) 84%,
+    hsl(196deg 81% 57%) 92%,
+    hsl(197deg 76% 58%) 100%
+  ); */
+  background-color: hsl(42, 31%, 89%);
+  font-size: large;
+  font-weight: 400;
+}
+
+.actor-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+  background-color: rgb(34, 34, 34);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 5px;
+}
+.iframe-container {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: hsl(0, 1%, 17%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 640px;
+}
+
+.poster-container {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: hsl(0, 1%, 17%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+iframe {
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}

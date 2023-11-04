@@ -1,0 +1,11 @@
+.img-container {
+  background-color: rgb(255, 255, 255);
+  margin-top: 10%;
+  color: rgb(50, 48, 48);
+  text-align: center;
+  width: 100%;
+}
+.img-container img {
+  width: 300px;
+  height: 250px;
+}

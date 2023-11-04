@@ -1,0 +1,15 @@
+body {
+  font-family: "Titillium Web";
+}
+.router-container {
+  min-height: 90vh;
+  margin-bottom: 2vh;
+}
+
+.table a {
+  margin-right: 1rem;
+}
+
+.table {
+  margin: auto;
+}

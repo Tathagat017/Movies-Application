@@ -1,0 +1,65 @@
+.main-container {
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#main {
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1%;
+  height: 60vh;
+  transition: 200ms;
+  box-sizing: border-box;
+  height: fit-content;
+  background-image: linear-gradient(
+    0deg,
+    hsl(0deg 0% 97%) 0%,
+    hsl(31deg 46% 94%) 9%,
+    hsl(31deg 65% 92%) 17%,
+    hsl(32deg 75% 89%) 25%,
+    hsl(33deg 81% 86%) 32%,
+    hsl(33deg 85% 83%) 41%,
+    hsl(34deg 89% 80%) 51%,
+    hsl(35deg 91% 75%) 64%,
+    hsl(31, 93%, 71%) 79%,
+    hsl(20, 94%, 65%) 100%
+  );
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* hsl(38deg 94% 65%) 100% */
+#main:hover {
+  transform: translateY(5px) scale(1.01);
+}
+
+#main > p {
+  height: 2rem;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+#main > a > img {
+  width: 225px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+#main a {
+  text-decoration: none;
+  color: black;
+  transition: 100ms;
+}
+
+#main a:hover {
+  text-decoration: none;
+  color: goldenrod;
+  transform: scale(1.2);
+}
